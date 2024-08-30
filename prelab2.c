@@ -1,4 +1,3 @@
-// Made by David Morgensztern
 #include <stdio.h>
 
 //Creating the main function
