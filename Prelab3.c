@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int iterations = 0; 
-    while(iterations < 50)
+    int iterations = 1; 
+    while(iterations < 51)
     {
         if(iterations % 3 == 0 && iterations % 5 == 0)
         {
