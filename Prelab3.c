@@ -23,6 +23,11 @@ int main(void)
         }
         
         iterations++;
+
+        if(iterations < 50)
+        {
+            printf(", ");
+        }
     }
     return 0;
 }
