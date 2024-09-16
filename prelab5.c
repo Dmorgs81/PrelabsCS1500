@@ -15,11 +15,16 @@ int main(void) {
 
     //prints e and the different calculations
     printf("e = %f \n", factorialCalc);
-    printf("e^1 = %f \n", pow(factorialCalc, 1));
+    /* printf("e^1 = %f \n", pow(factorialCalc, 1));
     printf("e^2 = %f \n", pow(factorialCalc, 2));
     printf("e^3 = %f \n", pow(factorialCalc, 3));
     printf("e^4 = %f \n", pow(factorialCalc, 4));
-    printf("e^5 = %f \n", pow(factorialCalc, 5));
+    printf("e^5 = %f \n", pow(factorialCalc, 5)); */
+
+    for(int z = 1; z <= 5; z++)
+        {
+            printf("e^%d = %f\n", z, pow(factorialCalc, z));
+        }
     return 0;  
 }
 
