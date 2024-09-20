@@ -20,7 +20,7 @@ int main(void)
     {
         total += myArray[i];
     }
-    printf("Toral of all Elements: %f \n", total);
+    printf("Total of all Elements: %f \n", total);
     averageCalculation = total/20.0;
     printf("Average: %f \n", averageCalculation);
     return 0;
